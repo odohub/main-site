@@ -1,0 +1,360 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,100italic,400italic,700italic,500,300,300italic,500italic);
+/* line 13, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+body {
+  font-family: 'Roboto'; }
+
+/* line 18, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.link {
+  text-decoration: none;
+  transition: all 0.2s;
+  font-weight: bold; }
+  /* line 23, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .link:hover {
+    text-decoration: none;
+    color: #0B3E3B; }
+
+/* line 28, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.pad-bot {
+  padding-bottom: 15px; }
+
+/* line 31, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.mar-bot {
+  margin-bottom: 15px; }
+
+/* line 34, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.bor-4 {
+  border-radius: 4px; }
+
+/* line 41, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.bgprop {
+  padding-top: 70px;
+  background-color: #DCDCCE; }
+
+/* line 45, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.logo {
+  background-image: url(../images/Logo.png);
+  filter: invert(100%);
+  background-repeat: no-repeat;
+  padding-left: 150px;
+  background-position: 15px;
+  background-size: 135px auto; }
+
+/* line 53, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.invert {
+  filter: invert(100%);
+  -webkit-filter: invert(100%); }
+
+/* line 57, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.icon {
+  margin: 10px Auto;
+  display: block; }
+
+/* line 61, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.mid {
+  text-align: center; }
+
+/* line 67, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.btn-bg {
+  background-color: #49412C;
+  color: #FFFFFF; }
+
+/* line 71, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.btn-success {
+  background-color: #5A962D;
+  border-color: #5A962D;
+  color: #fff;
+  transition: all 0.2s; }
+  /* line 76, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .btn-success:hover {
+    background-color: #416327;
+    border-color: #416327;
+    color: #fff; }
+
+/* line 88, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.navbar-right {
+  padding-right: 15px; }
+
+/* line 91, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.quote {
+  margin-top: 8px; }
+
+/* line 94, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.nav-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+/* line 101, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.footer-menu {
+  background-color: #0B3E3B;
+  margin-top: 20px; }
+
+/* line 105, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+footer {
+  margin-right: 15px; }
+  /* line 107, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  footer .footer {
+    background-color: #0B3E3B;
+    padding-top: 15px;
+    padding-left: 15px; }
+    /* line 111, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    footer .footer .row a {
+      color: #94ADAB;
+      text-decoration: none;
+      transition: all 0.2s; }
+      /* line 115, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      footer .footer .row a:hover {
+        color: #fff; }
+    /* line 120, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    footer .footer fieldset legend {
+      margin-bottom: 2px; }
+      /* line 122, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      footer .footer fieldset legend h3 {
+        font-size: 20px; }
+        /* line 124, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+        footer .footer fieldset legend h3 a {
+          color: #fff;
+          text-decoration: none; }
+          /* line 127, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+          footer .footer fieldset legend h3 a :hover {
+            color: none; }
+    /* line 133, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    footer .footer fieldset .row {
+      padding-top: 8px; }
+      /* line 136, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      footer .footer fieldset .row .footer-services > a {
+        font-size: 11px; }
+      /* line 139, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      footer .footer fieldset .row .footer-services > h5 {
+        padding: 0px;
+        font-size: 14px; }
+    /* line 146, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    footer .footer fieldset .row div.col-sm-6 > a {
+      font-size: 14px; }
+    /* line 150, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    footer .footer fieldset .media-object-default {
+      color: #94ADAB;
+      padding-top: 6px; }
+      /* line 153, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      footer .footer fieldset .media-object-default:first-child {
+        padding-top: 8px; }
+
+@media (max-width: 767px) {
+  /* line 162, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .footer-services {
+    text-align: center;
+    margin-top: 30px; }
+    /* line 165, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .footer-services:nth-of-type(1) {
+      margin: 0px; }
+    /* line 168, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .footer-services > h5 {
+      font-size: 16px; } }
+
+/* line 174, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.breadcrumb-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px; }
+
+/* line 182, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.white {
+  color: #fff; }
+
+/* line 187, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.float-right {
+  float: right; }
+
+/* line 191, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.inline li {
+  display: inline; }
+
+/* line 195, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
+/* line 204, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.navbar-default {
+  background-color: #0B3E3B; }
+  /* line 206, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-text {
+    color: #ffffff; }
+  /* line 210, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+    /* line 212, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      background-color: #136964; }
+  /* line 216, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-nav > .active > a {
+    background-color: #136964; }
+    /* line 218, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+      background-color: #136964; }
+  /* line 222, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-nav > .open > a {
+    background-color: #136964; }
+    /* line 224, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+      background-color: #136964; }
+  /* line 229, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #ffffff;
+    background-color: #136964; }
+    /* line 232, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ffffff; }
+  /* line 236, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-collapse {
+    border-color: #ffffff; }
+  /* line 239, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-form {
+    border-color: #ffffff; }
+  /* line 242, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-link {
+    color: #ffffff; }
+    /* line 244, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .navbar-default .navbar-link:hover {
+      color: #000000; }
+
+@media (max-width: 767px) {
+  /* line 251, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff; }
+  /* line 255, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000; }
+  /* line 260, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: rgba(11, 62, 59, 0.6); } }
+
+/* line 266, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.dropdown-menu > li {
+  display: inline;
+  float: left; }
+
+/* line 273, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.setwidth {
+  width: 100ch; }
+
+/* line 278, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.thumbnail {
+  min-height: 400px; }
+  /* line 280, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .thumbnail .caption {
+    position: absolute;
+    bottom: 28px;
+    left: 0px;
+    right: 0px; }
+    /* line 285, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .thumbnail .caption a.btn {
+      border: 0;
+      background-color: #5A962D;
+      color: #fff; }
+      /* line 289, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      .thumbnail .caption a.btn:hover {
+        background-color: #416327;
+        color: #fff; }
+  /* line 295, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .thumbnail h3 a {
+    color: #0B3E3B;
+    text-decoration: none;
+    transition: all 0.2s; }
+    /* line 299, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .thumbnail h3 a:hover {
+      color: rgba(11, 62, 59, 0.6); }
+  /* line 303, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .thumbnail .info {
+    color: #0B3E3B;
+    margin-bottom: 8px; }
+    /* line 306, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .thumbnail .info a {
+      color: #0B3E3B;
+      text-decoration: none;
+      transition: all 0.2s; }
+      /* line 310, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      .thumbnail .info a:hover {
+        color: rgba(11, 62, 59, 0.6); }
+
+/* line 318, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.active {
+  font-weight: bold; }
+
+/* line 324, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+script + a {
+  display: none; }
+
+/* line 334, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+.bgwh {
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  border-left: 10px solid #0B3E3B; }
+  /* line 341, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+  .bgwh ul.media-list {
+    margin: 0px; }
+    /* line 343, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .bgwh ul.media-list h3 {
+      display: block;
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      padding: 6px 15px;
+      margin: 0px;
+      background-color: #f2f2f2;
+      border-top: 1px solid rgba(11, 62, 59, 0.4);
+      cursor: pointer; }
+      /* line 353, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      .bgwh ul.media-list h3:hover {
+        background-color: #cccccc;
+        box-shadow: inset 0 8px 8px -8px #aaa, inset 0 -8px 8px -8px #aaa; }
+        /* line 357, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+        .bgwh ul.media-list h3:hover a {
+          color: #0B3E3B; }
+      /* line 362, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      .bgwh ul.media-list h3 a {
+        display: block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-decoration: none;
+        color: #1a958d; }
+        /* line 369, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+        .bgwh ul.media-list h3 a span {
+          display: none; }
+    /* line 374, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+    .bgwh ul.media-list h4 {
+      display: block;
+      width: 100%;
+      height: 38px;
+      padding: 8px 35px;
+      margin: 0px;
+      background-color: #f2f2f2;
+      border-top: 1px solid rgba(11, 62, 59, 0.4);
+      cursor: pointer; }
+      /* line 383, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      .bgwh ul.media-list h4:hover {
+        background-color: #cccccc;
+        box-shadow: inset 0 8px 8px -8px #aaa, inset 0 -8px 8px -8px #aaa; }
+        /* line 387, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+        .bgwh ul.media-list h4:hover li a {
+          color: #0B3E3B; }
+      /* line 391, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+      .bgwh ul.media-list h4 li {
+        font-size: 14px;
+        display: block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
+        /* line 397, Y:/UX_GD_UI jobs/Odohub/Website Temp/style.scss */
+        .bgwh ul.media-list h4 li a {
+          color: #1a958d;
+          display: block;
+          text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

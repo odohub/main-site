@@ -1,0 +1,423 @@
+$main-blue: #0B3E3B;
+$hover-white: #fff;
+$base-white: #94ADAB;
+$button-main: #5A962D;
+$button-text: #fff;
+$button-hover: #416327;
+$button-hover-text: #fff;
+
+@charset "UTF-8";
+
+//Font declaration
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,100italic,400italic,700italic,500,300,300italic,500italic);
+body {
+    font-family: 'Roboto';
+}
+
+// Universal Styles
+.link {
+    //    color: lighten($main-blue, 0.6);
+    text-decoration: none;
+    transition: all 0.2s;
+    font-weight: bold;
+    &:hover {
+        text-decoration: none;
+        color: $main-blue;
+    }
+}
+.pad-bot {
+    padding-bottom: 15px;
+}
+.mar-bot {
+    margin-bottom: 15px;
+}
+.bor-4 {
+    border-radius: 4px;
+}
+
+
+// Styling starts
+
+.bgprop{
+    padding-top: 70px;
+    background-color: #DCDCCE;
+}
+.logo {
+    background-image: url(../images/Logo.png);
+    filter: invert(100%);
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    background-position: 15px;
+    background-size: 135px auto;
+}
+.invert{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+.icon {
+    margin: 10px Auto;
+    display: block;
+}
+.mid {
+    text-align: center;
+}
+
+
+// Buttons
+.btn-bg {
+    background-color: #49412C;
+    color: #FFFFFF;
+}
+.btn-success {
+    background-color: $button-main;
+    border-color: $button-main;
+    color: $button-text;
+    transition: all 0.2s;
+    &:hover {
+        background-color: $button-hover;
+        border-color: $button-hover;
+        color: $button-text;
+    }
+}
+
+
+
+
+
+// Navbar
+.navbar-right {
+    padding-right: 15px;
+}
+.quote {
+    margin-top: 8px;
+}
+.nav-btn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer-menu {
+    background-color: $main-blue;
+    margin-top: 20px;
+}
+footer {
+    margin-right: 15px;
+    .footer {
+        background-color: $main-blue;
+        padding-top: 15px;
+        padding-left: 15px;
+        .row a{
+            color: $base-white;
+            text-decoration:none;
+            transition: all 0.2s;
+            &:hover {
+                color: $hover-white;
+            }
+        }
+        fieldset {
+            legend {
+                margin-bottom: 2px;
+                h3 {
+                    font-size: 20px;
+                    & a{
+                        color: #fff;
+                        text-decoration: none;
+                        :hover {
+                            color: none;
+                        }
+                    }
+                }
+            }
+            .row {
+                padding-top: 8px;
+                .footer-services {
+                    &>a {
+                        font-size: 11px;
+                    }
+                    &>h5 {
+                        padding: 0px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .row div.col-sm-6 {
+                &>a {
+                    font-size: 14px;
+                }
+            }
+            .media-object-default {
+                color: $base-white;
+                padding-top: 6px;
+                &:first-child {
+                    padding-top: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-services {
+        text-align: center;
+        margin-top: 30px;
+        &:nth-of-type(1) {
+            margin: 0px;
+        }
+        &>h5 {
+            font-size: 16px;
+        }
+    }
+}
+
+.breadcrumb-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.white {
+    color: #fff;
+}
+
+
+.float-right {
+
+    float: right;
+}
+.inline li{
+    display: inline;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+
+.navbar-default {
+    background-color: $main-blue;
+    .navbar-text {
+        color: #ffffff;
+    }
+    .navbar-nav {
+        & > li > a {
+            color: #ffffff;
+            &:hover, &:focus {
+                background-color: lighten($main-blue, 10%);
+            }
+        }
+        & > .active > a {
+            background-color: lighten($main-blue, 10%);
+            &:hover, &:focus {
+                background-color: lighten($main-blue, 10%);
+            }
+        }
+        & > .open > a {
+            background-color: lighten($main-blue, 10%);
+            &:hover, &:focus {
+                background-color: lighten($main-blue, 10%);
+            }
+        }
+    }
+    .navbar-toggle {
+        border-color: #ffffff;
+        background-color: lighten($main-blue, 10%);
+        .icon-bar {
+            background-color: #ffffff;
+        }
+    }
+    .navbar-collapse {
+        border-color: #ffffff;
+    }
+    .navbar-form {
+        border-color: #ffffff;
+    }
+    .navbar-link {
+        color: #ffffff;
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #000000;
+        background-color: transparentize($main-blue,0.4);
+    }
+}
+
+.dropdown-menu > li{
+    display:inline;
+    float:left;
+
+
+}
+
+.setwidth{
+    width: 100ch;
+}
+
+// Thumbnail - Banner things
+.thumbnail {
+    min-height: 400px;
+    .caption {
+        position: absolute;
+        bottom: 28px;
+        left: 0px;
+        right: 0px;
+        a.btn {
+            border: 0;
+            background-color: $button-main;
+            color: $button-text;
+            &:hover {
+                background-color: $button-hover;
+                color: $button-hover-text;
+            }
+        }
+    }
+    h3 a{
+        color: $main-blue;
+        text-decoration:none;
+        transition: all 0.2s;
+        &:hover {
+            color: transparentize($main-blue, 0.4);
+        }
+    }
+    .info {
+        color: $main-blue;
+        margin-bottom: 8px;
+        a {
+            color: $main-blue;
+            text-decoration:none;
+            transition: all 0.2s;
+            &:hover {
+                color: transparentize($main-blue, 0.4);
+            }
+        }
+    }
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+//Temporary fix for JQuery - Still open
+script+a{
+    display:none;
+}
+
+
+
+
+
+
+// Services Page
+.bgwh {
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    //    Remove after this
+    border-left: 10px solid $main-blue;
+    ul.media-list {
+        margin: 0px;
+        h3 {
+            display: block;
+            width: 100%;
+            height: 50px;
+            font-size: 18px;
+            padding: 6px 15px;
+            margin: 0px;
+            background-color: darken(white, 5%);
+            border-top: 1px solid transparentize($main-blue, 0.6);
+            cursor: pointer;
+            &:hover {
+                background-color: darken(white, 20%);
+                box-shadow: inset  0  8px 8px -8px #aaa,
+                    inset  0 -8px 8px -8px #aaa;
+                a {
+                    color: $main-blue;
+                }
+            }
+
+            a {
+                display: block;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                text-decoration: none;
+                color: lighten($main-blue, 20%);
+                span {
+                    display: none;
+                }
+            }
+        }
+        h4 {
+            display: block;
+            width: 100%;
+            height: 38px;
+            padding: 8px 35px;
+            margin: 0px;
+            background-color: darken(white, 5%);
+            border-top: 1px solid transparentize($main-blue, 0.6);
+            cursor: pointer;
+            &:hover {
+                background-color: darken(white, 20%);
+                box-shadow: inset  0  8px 8px -8px #aaa,
+                    inset  0 -8px 8px -8px #aaa;
+                li a {
+                    color: $main-blue;
+                }
+            }
+            li {
+                font-size: 14px;
+                display: block;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                a {
+                    color: lighten($main-blue, 20%);
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Backups of old code
+//            &::after {
+//                content: '>';
+//                display: block;
+//                width: 30%;
+//                height: 120%;
+//                position: relative;
+//                top: -110%;
+//                right: -109%;
+//                line-height: 260%;
+//                text-align: center;
+//                vertical-align: middle;
+//                background-color: darken(#fff, 10%);
+//                border-left: 2px solid $base-white;
+//            }
